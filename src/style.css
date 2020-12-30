@@ -1,0 +1,151 @@
+body {
+  font-size: 130%;
+  font-family: "Playfair Display", serif;
+  background-image: url('./img/background_picture.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+#canvas {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  height: 100%;
+}
+#hmw12 {
+  color: white;
+  width: auto;
+  height: 550px;
+  margin: 40px;
+  padding: 40px;
+  display: flex;
+  justify-content: space-between;
+  background-color: rgba(255, 255, 0, 0.35);
+}
+h1 {
+  font-size: 150%;
+  font-weight: bold;
+}
+.block {
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.604);
+  width: 700px;
+  height: 550px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+table {
+  margin: 5px;
+  font-size: 110%;
+  text-align: center;
+  width: 100%;
+  padding-top: 5px;
+}
+
+th {
+  font-size: 120%;
+  font-weight: bold;
+  padding-top: 5px;
+}
+
+td {
+  width: 35%;
+}
+.choose-episode {
+  font-size: 130%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.604);
+  width: 500px;
+  height: 300px;
+  border-radius: 10px;
+  text-align: center;
+  padding: 10px;
+}
+
+.select {
+  padding: 10px;
+  height: 300px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.title {
+  font-size: 190%;
+  text-align: center;
+}
+
+#select-episode {
+  font-size: 80%;
+  border-radius: 8px;
+  width: 170px;
+  height: 50px;
+  margin: 5px;
+}
+#show-information {
+  font-size: 80%;
+  border-radius: 8px;
+  border: none;
+  margin: 20px;
+  width: 170px;
+  height: 120px;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.919);
+  transition: all 300ms ease;
+}
+
+#show-information:hover {
+  color: black;
+  font-weight: bold;
+  font-size: 90%;
+  background-color: yellow;
+  cursor: pointer;
+}
+
+#hmw10 {
+  width: 100%;
+  height: 200px;
+  background-color: rgba(255, 255, 0, 0.35);
+  margin-bottom: 50px;
+}
+.keys {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+}
+
+.key {
+  border: 0.1em solid black;
+  border-radius: 0.8rem;
+  margin: 1rem;
+  font-size: 1.2rem;
+  padding: 1rem 1rem;
+  transition: all 0.3s ease;
+  width: 300px;
+  text-align: center;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.604);
+  text-shadow: 0 0 0.5rem white;
+}
+
+kbd {
+  font-size: 2.7rem;
+  margin: 1px;
+}
+
+.sound {
+  font-size: 1.2rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  color: yellow;
+}
+
+.playing {
+  transform: scale(1.1);
+  border-color: yellowgreen;
+  box-shadow: 0 0 1rem yellowgreen;
+}
